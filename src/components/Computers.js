@@ -9,7 +9,7 @@ import AnimatedSphere from "./Box";
 
 const Computers=()=>{
 
-    const comp=useGLTF('./desktop/scene.gltf');
+    const comp=useGLTF('./intro/scene.gltf');
 //     // const [startTransition, isPending] = useTransition();
 //     // const { scene } = useLoader(GLTFLoader, './scene.gltf', startTransition);
 
@@ -26,8 +26,8 @@ const Computers=()=>{
             position={[-20, 50, 10]}
             />
             <primitive object={comp.scene}
-                scale={1.25}
-                position={[1, -3.25, -1.5]}
+                scale={4}
+                position={[1, 0, -1]}
                 rotation={[-.01, -.2, -.1]}
             />
         </mesh>
@@ -40,12 +40,12 @@ const ComputerCanvas=()=>{
         <Canvas
         frameLoop="demand"
         shadows
-        camera={{position: [10, 15, 2], fov: 25}}
+        camera={{position: [10, 12, 2], fov: 25}}
         gl={{preserveDrawingBuffer: true}}
         >
             <Suspense fallback={null}>
                 <OrbitControls enableZoom={false} 
-                // autoRotate
+                autoRotate
                 maxPolarAngle={Math.PI/2}
                 minPolarAngle={Math.PI/2}
                 />

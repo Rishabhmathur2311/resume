@@ -53,7 +53,7 @@ const Contacts=()=>{
             stiffness: 260,
             damping: 20
         }}
-        className='flex-[0.75] p-8 rounded-2xl '
+        className='flex-[0.75] p-8 rounded-2xl pt-0 sm: pt-8'
         >
             <div className="bg-[#343434] rounded-lg p-8 mt-">
             <label className="flex flex-col">

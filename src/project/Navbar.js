@@ -45,7 +45,7 @@ const Navbar = () => {
           </p>
         </Link> */}
 
-        <ul className='list-none mt-5 hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-8'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -58,8 +58,49 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="flex justify-between text-white">
+        <ul className='list-none mt-1 flex flex-row gap-10'>
+            <li
+              className="hover:text-white text-[18px] font-medium cursor-pointer`}
+              w-8 h-8 bg-black text-white text-bold"
+            >
+              <a href={"https://drive.google.com/file/d/1VyGc7i0Ssk12qU2eNyi2vnpRlF3VWuJh/view?usp=sharing"}>
+                <img
+                  src="./resume.png"
+                  alt="resume"
+                >
+                </img>
+              </a>
+            </li>
+            <li
+              className="hover:text-white text-[18px] font-medium cursor-pointer`}
+              w-8 h-8"
+            >
+              <a href={"https://leetcode.com/Rishabh_mathur/"}
+              >
+                <img
+                  src="./leetcode.png"
+                  alt="leetcode"
+                >
+                </img>
+              </a>
+            </li>
+            <li
+              className="hover:text-white text-[18px] font-medium cursor-pointer`}
+              w-6 h-7 bg-black"
+            >
+              <a href={"https://www.linkedin.com/in/rishabh-mathur-a51ab6223/"}>
+                <img
+                  src="./linkedin.png"
+                  alt="leetcode"
+                >
+                </img>
+              </a>
+            </li>
+        </ul>
+        </div>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center text-white'>
           <img
             src={toggle ? close : menu}
             alt='menu'

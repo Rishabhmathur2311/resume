@@ -31,7 +31,7 @@ const About=()=>{
                 </div>
             </div>
             </motion.div>
-            <div className="mt-8">
+            <div className="mt-8 h-[200px]">
                 <ComputerCanvas />
             </div>
             
