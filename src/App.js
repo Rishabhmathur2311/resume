@@ -8,6 +8,7 @@ import Contact from './components/Contact.js';
 import Skills from './components/skillsSet/Skills.js';
 import Navbar from './project/Navbar.js';
 import { BrowserRouter } from 'react-router-dom';
+import Leetcode from './components/LeetcodeCard.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <About />
       <Projects />
+      <Leetcode />
       <Skills />
       <Contact />
       {/* <Experience /> */}
