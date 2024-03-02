@@ -35,13 +35,18 @@ export const navLinks = [
     title: "projects",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
-  {
     id: "Leetcode",
     title: "Leetcode",
   },
+  {
+    id: "Skills",
+    title: "Skills",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+  
 ];
 
 const services = [

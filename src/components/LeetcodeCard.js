@@ -26,7 +26,7 @@ const Leetcode=()=>{
         
 
     return (
-        <div>
+        <div className="mt-10">
 
             <div className="flex flex-row gap-5 mb-10">
                 <div className="flex flex-col justify-center items-center ml-[18%]">
@@ -42,7 +42,7 @@ const Leetcode=()=>{
 
 
 
-            <div className="ml-[28%] max-w-[620px] min-w-[300px]">
+            <div className="ml-[20%] max-w-[620px] min-w-[300px]">
                 <div className="flex flex-row items-center justify-center bg-[#222222] flex-wrap pl-8 pt-2 pb-2 rounded-2xl">
                 <div className=" rounded-full w-40 h-38 text-[60px] p-1 bg-yellow-500 mr-[5%]">
                     <div className="rounded-full w-38 h-35 text-[60px] p-4 pl-6  border-4 bg-[#343434] text-yellow-500">

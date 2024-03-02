@@ -2,6 +2,7 @@ import React from "react";
 import SkillCanvas from "./Skilld";
 import { technologies } from "../../constants/index.js"
 import {motion} from "framer-motion";
+import { SectionWrapper } from "../../hoc/index.js";
 
 const Skills=()=>{
     return (
@@ -36,4 +37,4 @@ const Skills=()=>{
     );
 }
 
-export default Skills;
+export default SectionWrapper(Skills, "Skills");

@@ -29,7 +29,7 @@ const Card=(prop)=>{
                 axis: null,
                 exit: true,
             }}
-            className="bg-[#343434]  p-5 rounded-2xl sm: w-[260px] ml-8 mr-8 mb-8"
+            className="bg-[#343434]  p-5 rounded-2xl sm: w-[260px] ml-8 mr-8 mb-4"
             >
                 <div className="relative w-full h-[200px]">
                     {/* <img

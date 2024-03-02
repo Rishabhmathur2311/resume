@@ -5,7 +5,7 @@ import {SectionWrapper} from "../hoc";
 
 const Projects=()=>{
     return (
-        <div >
+        <div className="mt-14">
             <div className="flex flex-row gap-5 mb-10">
             <div className="flex flex-col justify-center items-center ml-[18%]">
                     <div className="w-5 h-5 rounded-full bg-blue-500" />
