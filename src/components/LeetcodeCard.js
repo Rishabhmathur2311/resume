@@ -5,14 +5,14 @@ import {SectionWrapper} from "../hoc";
 const Leetcode=()=>{
     const api="https://leetcodestats.cyclic.app/Rishabh_Mathur";
     const [info, setInfo]=useState({
-        hardSolved: 93,
-        mediumSolved: 399,
-        easySolved: 234,
-        totalHard: 683,
-        totalMedium: 1614,
-        totalEasy: 780,
-        totalSolved: 726,
-        totalQuestions: 3077,
+        hardSolved: 112,
+        mediumSolved: 468,
+        easySolved: 253,
+        totalHard: 718,
+        totalMedium: 1690,
+        totalEasy: 811,
+        totalSolved: 833,
+        totalQuestions: 3219,
     });
 
     const getData=async(url)=>{
